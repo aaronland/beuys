@@ -32,9 +32,11 @@ func Posts(ctx context.Context) ([]*Post, error) {
 		title := l.FullText()
 		attrs := l.Attrs()
 
+		link := fmt.Sprintf("https://felt.com%s", attrs["href"])
+		
 		post := &Post{
 			Title: title,
-			Link:  attrs["href"],
+			Link:  link,
 		}
 
 		posts[idx] = post

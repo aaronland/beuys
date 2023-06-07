@@ -79,6 +79,25 @@ Create a new (Go) Lambda function using the `feed-server.zip` file and  configur
 | --- | --- |
 | FELT_SERVER_URI | `functionurl://` |
 
+For example:
+
+```
+$> curl -s https://{FUNCTION_URL_ID}.lambda-url.{REGION}.on.aws | xmllint - | grep title
+    <title>An auto-generated syndication feed for the felt.com weblog</title>
+      <title>May Spotlight: 10 Best Felt Community Maps</title>
+      <title>Felt for investigative journalism: mapping Malaysian deforestation</title>
+      <title>From SVG to Canvas – Part 2: A new way of building interactions</title>
+      <title>Mapping Protected Territories: Westchester Land Trust Case Study</title>
+      <title>From SVG to Canvas – Part 1: Making Felt faster</title>
+      <title>Graceful Startup and Shutdown for Phoenix Applications</title>
+      <title>April Spotlight: 10 Best Felt Community Maps</title>
+      <title>GeoTIFFs, XYZ Urls, and Raster Imagery – Now in Felt</title>
+      <title>Routing Patterns for Manageable Phoenix Channels</title>
+      <title>March Spotlight: 10 Best Felt Community Maps</title>
+      <title> Modern Client Collaboration: Alta Planning + Design Case Study</title>
+      <title>Creating Maps on the Web with QGIS &amp; Felt</title>
+```
+
 ## See also
 
 * https://felt.com/blog
