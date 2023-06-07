@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:h="http://www.w3.org/1999/xhtml" version="2.0">
+  <channel>
+    <title>An auto-generated syndication feed for the felt.com weblog</title>
+    <link>https://felt.com/blog</link>
+    <lastBuildDate>{{ .Now.Format "Mon 02 Jan, 2006 15:04:05 MST" }}</lastBuildDate>
+    <description>An auto-generated syndication feed for the felt.com weblog</description>
+    {{ range $i, $p := .Posts }}
+    <item>
+      <link>{{ $p.Link }}</link>
+      <guid>{{ $p.Link }}</guid>
+      <title>{{ Escape $p.Title }}</title>
+    </item>
+    {{ end }}
+
+  </channel>
+</rss>
