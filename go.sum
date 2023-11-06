@@ -1,13 +1,13 @@
-github.com/aaronland/go-http-server v1.2.0 h1:UOWlZwhW/Qb4CUG60zStmiwj1xweqOfZOA1J8jNIo2I=
-github.com/aaronland/go-http-server v1.2.0/go.mod h1:oADvZbSg6tH2aqZSRzVJW9vSJ+xVDEZqMqEjR76xeAs=
+github.com/aaronland/go-http-server v1.3.0 h1:LRkmG6i3BHTqxjtW6ZhcH0VpBo/UPSv0454u1GY0RK4=
+github.com/aaronland/go-http-server v1.3.0/go.mod h1:m0lnF7yEaXAPBwa0oIAqyl4BkrtfFcDeTHXQYrlCavQ=
 github.com/aaronland/go-roster v1.0.0 h1:FRDGrTqsYySKjWnAhbBGXyeGlI/o5/t9FZYCbUmyQtI=
 github.com/aaronland/go-roster v1.0.0/go.mod h1:KIsYZgrJlAsyb9LsXSCvlqvbcCBVjCSqcQiZx42i9ro=
 github.com/akrylysov/algnhsa v1.0.0 h1:qlogYL9n7MfU/TJJJCKqpg6gLgCuR/IkdFGwIJClBnE=
 github.com/akrylysov/algnhsa v1.0.0/go.mod h1:ConzNpk7uLAl7Hi5LqcImgl3Oq2flRe6W7zum5A1p/8=
 github.com/anaskhan96/soup v1.2.5 h1:V/FHiusdTrPrdF4iA1YkVxsOpdNcgvqT1hG+YtcZ5hM=
 github.com/anaskhan96/soup v1.2.5/go.mod h1:6YnEp9A2yywlYdM4EgDz9NEHclocMepEtku7wg6Cq3s=
-github.com/aws/aws-lambda-go v1.37.0 h1:WXkQ/xhIcXZZ2P5ZBEw+bbAKeCEcb5NtiYpSwVVzIXg=
-github.com/aws/aws-lambda-go v1.37.0/go.mod h1:jwFe2KmMsHmffA1X2R09hH6lFzJQxzI8qK17ewzbQMM=
+github.com/aws/aws-lambda-go v1.41.0 h1:l/5fyVb6Ud9uYd411xdHZzSf2n86TakxzpvIoz7l+3Y=
+github.com/aws/aws-lambda-go v1.41.0/go.mod h1:jwFe2KmMsHmffA1X2R09hH6lFzJQxzI8qK17ewzbQMM=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
